@@ -1,0 +1,191 @@
+body {
+  font-family: sans-serif;
+  
+}
+
+.header1{
+display: flex;
+list-style-type: none;
+overflow: hidden;
+text-decoration: none;
+justify-content: flex-start;
+}
+
+.header2{
+display: flex;
+list-style-type: none;
+overflow: hidden;
+text-decoration: none;
+justify-content: flex-end;
+}
+
+#hom {
+  color: rgb(52, 201, 255);
+  width: 110px;
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  height: 35px;
+  margin-right: 10px;
+  
+}
+
+#con {
+  color: rgb(52, 201, 255);
+  width: 110px;
+  float: left;
+  text-align: center;
+  height: 35px;
+  
+}
+
+#log {
+  color: rgb(52, 201, 255);
+  border: solid 1px rgb(52, 201, 255);
+  border-radius: 10px;
+  width: 110px;
+  float: right;
+  margin-right: 5%;
+  text-align: center;
+  height: 35px;
+}
+
+#reg {
+  background-color: rgb(52, 201, 255);
+  width: 110px;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+  text-align: center;
+  height: 35px;
+
+}
+
+.header1 a div p {
+  margin-top: 8px;
+}
+.header2 a div p {
+  margin-top: 8px;
+}
+
+.main {
+  width: 100%;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main h2 {
+ 
+}
+
+.submain {
+ display: flex;
+ justify-content: space-between ;
+}
+
+.left-main {
+  margin-left: 5%;
+  max-width: 50%;
+}
+
+.locatie {
+  margin-top: 5%;
+}
+
+.locatie img {
+  width: 100%;
+}
+
+.right-main {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 50%;
+}
+
+.bieding {
+  display: flex;
+  width: 100%;
+}
+
+.bod-naam {
+  margin-right: 10px;
+}
+
+.bod {
+  margin-top: 5%;
+  display: flex;
+}
+
+.form-vul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#p-main {
+  font-size: 40px;
+  margin-left: 5%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.footer1{
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  justify-content: flex-start;
+  position: absolute;
+}
+
+.footer2 {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  
+}
+
+#gon {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  height: 35px;
+  margin-right: 10px;
+}
+
+#img2 {
+  max-height: 80px;
+}
+
+@media (max-width: 950px){
+  .footer2 {
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    
+  }
+  #img2 {
+    max-height: 200px;
+    max-width: 200px;
+  }
+}
+
+
+

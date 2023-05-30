@@ -1,0 +1,259 @@
+body {
+  font-family: sans-serif;
+  
+}
+
+.header1{
+display: flex;
+list-style-type: none;
+overflow: hidden;
+text-decoration: none;
+justify-content: flex-start;
+}
+
+.header2{
+display: flex;
+list-style-type: none;
+overflow: hidden;
+text-decoration: none;
+justify-content: flex-end;
+}
+
+#hom {
+  color: rgb(52, 201, 255);
+  width: 110px;
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  height: 35px;
+  margin-right: 10px;
+  
+}
+
+#con {
+  color: rgb(52, 201, 255);
+  width: 110px;
+  float: left;
+  text-align: center;
+  height: 35px;
+  
+}
+
+#log {
+  color: rgb(52, 201, 255);
+  border: solid 1px rgb(52, 201, 255);
+  border-radius: 10px;
+  width: 110px;
+  float: right;
+  margin-right: 5%;
+  text-align: center;
+  height: 35px;
+}
+
+#reg {
+  background-color: rgb(52, 201, 255);
+  width: 110px;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+  text-align: center;
+  height: 35px;
+
+}
+
+.header1 a div p {
+  margin-top: 8px;
+}
+.header2 a div p {
+  margin-top: 8px;
+}
+
+.main {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.main h2 {
+  max-width: 80%;
+  margin-left: 10%;
+
+}
+
+.submain {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submain a {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+@media (max-width: 1500px){
+  .submain {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  a img {
+    margin-top: 10px;
+    width: 80%;
+  }
+
+}
+
+.footer {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.footer1{
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  justify-content: flex-start;
+  position: absolute;
+}
+
+.footer2 {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  
+}
+
+#gon {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  height: 35px;
+  margin-right: 10px;
+}
+
+#img2 {
+  max-height: 80px;
+}
+
+@media (max-width: 950px){
+  .footer2 {
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    
+  }
+  #img2 {
+    max-height: 200px;
+    max-width: 200px;
+  }
+}
+
+
+
+
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+  }
+  
+  .container * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .flex-outer,
+  .flex-inner {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .flex-outer {
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+  
+  .flex-outer li,
+  .flex-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+  
+  .flex-inner {
+    padding: 0 8px;
+    justify-content: space-between;  
+    
+  }
+  
+  .flex-outer > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .flex-outer li label,
+  .flex-outer li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  
+  .flex-outer > li > label,
+  .flex-outer li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+  }
+  
+  .flex-outer > li > label + *,
+  .flex-inner {
+    flex: 1 0 220px;
+  }
+  
+  .flex-outer li p {
+    margin: 0;
+  }
+  
+  .flex-outer li input:not([type='checkbox']),
+  .flex-outer li textarea {
+    padding: 15px;
+    border: none;
+  }
+  
+  .flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+    
+  }
+  
+  .flex-inner li {
+    width: 100px;
+    
+  }
+
+  h2 {
+    margin-left: 25%;
+  }
